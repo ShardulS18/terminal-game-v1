@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.console-container {
+    width: 30%; /* Occupies 30% of the screen on the left */
+    height: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+#terminal {
+    height: 100%;
+    width: 100%;
+}
+
+.content-container {
+    width: 70%; /* Remaining 70% for the content */
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+#pixi-container {
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
+#terminal-container {
+    width: 33%;
+    background-color: black;
+}
